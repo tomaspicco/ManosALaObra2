@@ -1,0 +1,20 @@
+import { useState } from "react";
+import Title from "./components/Title/Title";
+import TaskForm from "./components/TaskForm/TaskForm";
+import TaskItem from "./components/TaskItem/TaskItem";
+import TaskList from "./components/TaskList/TaskList";
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <>
+      <Title />
+      <TaskForm />
+      <TaskItem />
+      <TaskList />
+    </>
+  );
+}
+
+export default App;
