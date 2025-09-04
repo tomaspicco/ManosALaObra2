@@ -4,8 +4,9 @@ function IconDelete() {
   return (
     <>
       <button>
-        <img src={IconDeleteImg} alt="Eliminar tarea" />
-      </button>
+        <img src={IconDeleteImg} width={15} height={15} alt="Eliminar tarea" />
+      </button>{" "}
+      <br />
     </>
   );
 }
